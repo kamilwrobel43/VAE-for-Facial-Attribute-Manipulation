@@ -28,6 +28,7 @@ All training details you can find in `vae_training.ipynb` notebook including tra
 
 ## CelebA Latent Manipulator
 Utility functions to perform latent manipulator are in `features.py` file. Also you can check `smile_generator.ipynb` notebook to look at details of dataset splitting, `smile_vector` computation etc.
+You can control the smile level using `alpha` paremeter 
 
 ## Space for improvement & experiments
 - Training VAE longer (and try higher learning rate), because both training and test loss were constantly decreasing during 250 epochs
