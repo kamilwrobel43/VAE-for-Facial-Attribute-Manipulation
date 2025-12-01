@@ -1,3 +1,5 @@
+from visualizations import plot_img_and_recon
+
 def get_latent_vectors(model, loader, device):
     model.eval()
 
